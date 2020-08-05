@@ -146,3 +146,43 @@ Migrating to AddColumnToReview (20200805173101)
   [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Labatt Blue"], ["brewery", "Labatt"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-labatt-blue-166b3625536163c9.png"], ["style", "Canadian Pilsner"], ["abv", 5.0], ["description", "Labatt Blue has a clean refreshing taste with distinct hop aroma."], ["tasting_notes", "Delicate fruit flavor and a slightly sweet aftertaste."], ["likes", 0], ["recommended_drinking", "slamming, all year, Canada, drinkable."], ["created_at", "2020-08-05 21:39:00.035077"], ["updated_at", "2020-08-05 21:39:00.035077"]]
   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
   [1m[36mBeer Load (1.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers" ORDER BY "beers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2020-08-05 17:41:19 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kevinneyer/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kevinneyer/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.7ms | Allocations: 480)
+Completed 200 OK in 23ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 2630)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-05 17:41:25 -0400
+Processing by Api::V1::BeersController#index as HTML
+  [1m[36mBeer Load (1.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers" LIMIT $1[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms | Allocations: 14730)
+
+
+  [1m[36mCACHE Beer Load (0.0ms)[0m  [1m[34mSELECT "beers".* FROM "beers" LIMIT $1[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `key?' for #<Beer::ActiveRecord_Relation:0x00007ff9e81c9528>):
+  
+app/controllers/api/v1/beers_controller.rb:5:in `index'
+Started GET "/api/v1/beers" for ::1 at 2020-08-05 17:42:11 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/kevinneyer/Flatiron/code/Mod_5/biergarten-backend/biergarten-api/app/controllers/api/v1/beers_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting end
+      render :json beers 
+                   ^~~~~
+/Users/kevinneyer/Flatiron/code/Mod_5/biergarten-backend/biergarten-api/app/controllers/api/v1/beers_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting end
+        render :json beer 
+                     ^~~~):
+  
+app/controllers/api/v1/beers_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/controllers/api/v1/beers_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting end
+app/controllers/api/v1/beers_controller.rb:5: syntax error, unexpected tIDENTIFIER, expecting end
+app/controllers/api/v1/beers_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting end
+Started GET "/api/v1/beers" for ::1 at 2020-08-05 17:42:26 -0400
+Processing by Api::V1::BeersController#index as HTML
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 15.7ms | ActiveRecord: 3.8ms | Allocations: 18966)
+
+
