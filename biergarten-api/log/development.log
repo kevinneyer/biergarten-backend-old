@@ -186,3 +186,818 @@ Processing by Api::V1::BeersController#index as HTML
 Completed 200 OK in 26ms (Views: 15.7ms | ActiveRecord: 3.8ms | Allocations: 18966)
 
 
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:15:57 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BeersController#index as HTML
+  [1m[36mBeer Load (14.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 53ms (Views: 26.0ms | ActiveRecord: 19.7ms | Allocations: 18888)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:17:24 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 7830)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:18:06 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.5ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:18:48 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 15.4ms | ActiveRecord: 4.5ms | Allocations: 18887)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:19:11 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (9.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 21ms (Views: 11.7ms | ActiveRecord: 9.4ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:19:24 -0400
+Processing by Api::V1::BeersController#index as HTML
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:22:23 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 37ms (Views: 24.7ms | ActiveRecord: 4.4ms | Allocations: 18890)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:22:59 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:24:03 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:24:13 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (3.0ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 3.0ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:24:50 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:27:39 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:32:37 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:33:39 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:33:54 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.6ms | Allocations: 7829)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:33:57 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (2.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 2.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:37:04 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.1ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 1.1ms | Allocations: 7812)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:37:15 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:38:05 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (3.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 3.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:39:29 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 1.7ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:39:33 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.7ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:40:18 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:40:26 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (2.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 2.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:42:24 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:42:53 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:43:04 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (23.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 35ms (Views: 10.8ms | ActiveRecord: 23.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:44:04 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (5.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 55ms (Views: 49.2ms | ActiveRecord: 5.6ms | Allocations: 7814)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:45:15 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (11.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 26ms (Views: 14.1ms | ActiveRecord: 11.7ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:45:30 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.9ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.9ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:45:53 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:47:10 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (16.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 28ms (Views: 11.3ms | ActiveRecord: 16.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:47:34 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (3.0ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 3.0ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:47:54 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 1.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:48:20 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (3.0ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 3.0ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:55:00 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.9ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.9ms | Allocations: 7908)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:55:28 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 10:57:51 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (5.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 72ms (Views: 66.7ms | ActiveRecord: 5.3ms | Allocations: 7814)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:30:52 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 1.2ms | Allocations: 7908)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:31:02 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:31:06 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 1.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:31:11 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (20.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 36ms (Views: 15.3ms | ActiveRecord: 20.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:36:35 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 1.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:44:50 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.8ms | Allocations: 7908)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:48:18 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (55.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 69ms (Views: 13.1ms | ActiveRecord: 55.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:48:57 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:49:27 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (17.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 31ms (Views: 13.5ms | ActiveRecord: 17.7ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:54:56 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (8.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 60ms (Views: 51.1ms | ActiveRecord: 8.5ms | Allocations: 7814)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:55:04 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (4.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 4.7ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:55:45 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (4.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 8.5ms | ActiveRecord: 4.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:58:16 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.0ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 1.0ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:59:07 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 11:59:51 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:03:08 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:03:26 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:03:30 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.6ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:05:52 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:06:11 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.3ms | Allocations: 7814)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:06:13 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.2ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:06:35 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:06:40 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:07:10 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:07:17 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:09:40 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:09:53 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:11:02 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:12:30 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (23.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 75ms (Views: 50.2ms | ActiveRecord: 23.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:12:49 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.3ms | Allocations: 7814)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:12:52 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:12:55 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:13:38 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:13:46 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (1.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 1.2ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:15:31 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:15:33 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.8ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.8ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:15:50 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:16:23 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (3.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 3.4ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:16:24 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.5ms | Allocations: 7811)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 12:17:38 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (2.7ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 2.7ms | Allocations: 7811)
+
+
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mBeer Load (0.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  [1m[35m (4.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (12.9ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (1.1ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 13]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 15]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 16]]
+  [1m[35m (10.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 17]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 18]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 19]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 20]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 21]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (1.1ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 22]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 23]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 25]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 27]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.1ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 28]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 29]]
+  [1m[35m (23.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 30]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 31]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "beers" WHERE "beers"."id" = $1[0m  [["id", 32]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mFavorite Load (4.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites"[0m
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (3.4ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Budweiser"], ["brewery", "AB InBev"], ["img_url", "https://delpapadistributing.com/wp-content/uploads/2018/09/budweiser_pair_02.png"], ["style", "Lager"], ["abv", 5.0], ["description", "Medium bodied, flavorful, crisp lager brewed with the best barley malt and blend of premium hop varieties."], ["tasting_notes", "Crisp taste with a smooth finish. "], ["likes", 0], ["recommended_drinking", "Perfect for all year drinking, grilling, and baseball games."], ["created_at", "2020-08-06 18:04:46.680593"], ["updated_at", "2020-08-06 18:04:46.680593"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.3ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Miller High Life"], ["brewery", "Miller Brewing Co"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-miller-high-life-1c0b560ccca972a0.jpeg"], ["style", "Lager"], ["abv", 4.6], ["description", "True to its original recipe, it’s brewed with a proprietary blend of malted barley, Galena hops from the Pacific Northwest, and Miller yeast."], ["tasting_notes", "Crisp, refreshing, and effervescent "], ["likes", 0], ["recommended_drinking", "BBQs, divebars, and summertime drinking."], ["created_at", "2020-08-06 18:04:46.687453"], ["updated_at", "2020-08-06 18:04:46.687453"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Pabst Blue Ribbon"], ["brewery", "Pabst Brewing Company"], ["img_url", "https://pabstblueribbon.com/files/pbr-org_1-768x922.png"], ["style", "Lager"], ["abv", 4.8], ["description", "A smooth, full bodied beer with a clean, crisp finish with a fine noble hop aroma."], ["tasting_notes", "Grain, corn"], ["likes", 0], ["recommended_drinking", "Always good for all the time."], ["created_at", "2020-08-06 18:04:46.690545"], ["updated_at", "2020-08-06 18:04:46.690545"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Fat Tire"], ["brewery", "New Belgium"], ["img_url", "https://products1.imgix.drizly.com/ci-new-belgium-fat-tire-b4e1817093500c47.jpeg?auto=format%2Ccompress&fm=jpg&q=20"], ["style", "Amber Ale"], ["abv", 5.2], ["description", "Easy drinking amber ale with a medium body and light, sweet finish."], ["tasting_notes", "Toasty malt, gentle sweetness, and a flash of fresh hop bitterness"], ["likes", 0], ["recommended_drinking", "Camping and outdoor activities"], ["created_at", "2020-08-06 18:04:46.693623"], ["updated_at", "2020-08-06 18:04:46.693623"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "VooDoo Ranger"], ["brewery", "New Belgium"], ["img_url", "https://www.newbelgium.com/globalassets/beer/voodoo-ranger/vripa_2019_globe_btl.png"], ["style", "IPA"], ["abv", 7.0], ["description", "Bursting with tropical aromas and juicy fruit flavors from Mosaic and Amarillo hops, this golden IPA is perfectly bitter with a refreshing, sublime finish."], ["tasting_notes", "Lightly sweet at first with a stronger, building and perfect bitterness."], ["likes", 0], ["recommended_drinking", "Grilling, outdoor activities"], ["created_at", "2020-08-06 18:04:46.696450"], ["updated_at", "2020-08-06 18:04:46.696450"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Two Hearted Ale"], ["brewery", "Bells Brewery"], ["img_url", "https://cdn.shopify.com/s/files/1/0227/0581/products/Bells-Two-Hearted-Ale-12OZ-CAN_620x.JPG?v=1587397438"], ["style", "IPA"], ["abv", 7.0], ["description", "Bursting with hop aromas ranging from pine to grapefruit from massive hop additions in both the kettle and the fermenter."], ["tasting_notes", "Bitter Citrus Pine"], ["likes", 0], ["recommended_drinking", "Remarkably drinkable and well suited for adventures everywhere."], ["created_at", "2020-08-06 18:04:46.699146"], ["updated_at", "2020-08-06 18:04:46.699146"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Pale Ale"], ["brewery", "Sierra Nevada"], ["img_url", "https://products1.imgix.drizly.com/ci-sierra-nevada-pale-ale-972a185439d2f351.jpeg?auto=format%2Ccompress&fm=jpg&q=20"], ["style", "Ale"], ["abv", 5.6], ["description", "Heavy on hops, with intense aromas of pine and citrus."], ["tasting_notes", "Fragrant bouquet and spicy flavor"], ["likes", 0], ["recommended_drinking", "Enjoy outdoors, grilling, bbq, hiking, camping"], ["created_at", "2020-08-06 18:04:46.701865"], ["updated_at", "2020-08-06 18:04:46.701865"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Road 2 Ruin"], ["brewery", "Two Roads"], ["img_url", "https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h2b/h3d/11348859191326.png"], ["style", "Double IPA"], ["abv", 8.0], ["description", "Big, hoppy IPA with plenty of bite!"], ["tasting_notes", "Pine, citrus, and floral"], ["likes", 0], ["recommended_drinking", "Cooler weather, stronger profiles, having a good time."], ["created_at", "2020-08-06 18:04:46.704427"], ["updated_at", "2020-08-06 18:04:46.704427"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.3ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "City Wide"], ["brewery", "4 Hands Brewing Co"], ["img_url", "https://s3.amazonaws.com/liftclient-offloading/4hands/wp-content/uploads/2019/04/CityWide.png"], ["style", "Pale Ale"], ["abv", 5.5], ["description", "An American pale ale that showcases a blend of Centennial, Citra and Simcoe hops"], ["tasting_notes", "Aromas of citrus, melon and tropical fruit tapering to a crisp, juicy finish"], ["likes", 0], ["recommended_drinking", "Summer, grilling, Imos"], ["created_at", "2020-08-06 18:04:46.707043"], ["updated_at", "2020-08-06 18:04:46.707043"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Sip of Sunshine"], ["brewery", "Lawsons Finest Liquids"], ["img_url", "https://cdn.shopify.com/s/files/1/0058/8854/0731/products/sip-of-sunshine-ipa-161728_1024x1024@2x.jpg?v=1595530054"], ["style", "IPA"], ["abv", 8.0], ["description", "Lupulin-laden India Pale brewed in Stratford, CT."], ["tasting_notes", "Juicy tropical fruit character, bright floral aromas and delectable layers of hop flavor"], ["likes", 0], ["recommended_drinking", "Pour mindfully, inhale deeply and enjoy a tropical vacation in a glass"], ["created_at", "2020-08-06 18:04:46.709726"], ["updated_at", "2020-08-06 18:04:46.709726"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Toasted Lager"], ["brewery", "Blue Point Brewing Company "], ["img_url", "https://www.bluepointbrewing.com/assets/images/beers/year-round/toasted-lager/toasted-lager-can.png"], ["style", "Lager"], ["abv", 5.5], ["description", "Named for the “toasted” characteristics of the original direct-fire brick kettle, this flagship brew is brewed with a blend of six specialty malts for a rich flavor."], ["tasting_notes", "Balanced malt and hops with a smooth finish."], ["likes", 0], ["recommended_drinking", "fall, pizza, on a boat."], ["created_at", "2020-08-06 18:04:46.712303"], ["updated_at", "2020-08-06 18:04:46.712303"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.4ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "IPA"], ["brewery", "Lagunitas Brewing Company"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-lagunitas-ipa-ea3c01b7b5a23bd8.png"], ["style", "IPA"], ["abv", 6.2], ["description", "A well-rounded, highly drinkable IPA"], ["tasting_notes", "A bit of Caramel Malt barley provides the richness that mellows out the twang of the hops."], ["likes", 0], ["recommended_drinking", "mussels, summer, beach"], ["created_at", "2020-08-06 18:04:46.714888"], ["updated_at", "2020-08-06 18:04:46.714888"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Boston Lager"], ["brewery", "Sam Adams"], ["img_url", "https://i0.wp.com/www.delmesaliquor.com/wp-content/uploads/2020/05/Sam-Adams-Lager.jpeg?fit=696%2C743&ssl=1"], ["style", "Lager"], ["abv", 5.0], ["description", "Helped lead the American beer revolution, reviving a passion for full-flavored brews."], ["tasting_notes", "A distinctive balance of spicy hops, slightly sweet roasted malts, and a smooth finish."], ["likes", 0], ["recommended_drinking", "marathons, all year"], ["created_at", "2020-08-06 18:04:46.728153"], ["updated_at", "2020-08-06 18:04:46.728153"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Guinness"], ["brewery", "Guinness and Co"], ["img_url", "https://assets.bizjournals.com/boston/news/0317-Guinness-courtesy-Diageo.jpg?v=3"], ["style", "Stout"], ["abv", 4.2], ["description", "Rich and creamy. Distinctively black. This iconic beer is unmistakeable."], ["tasting_notes", "Bitter sweet with notes of malt and roast. Rich, creamy, and velvety smooth."], ["likes", 0], ["recommended_drinking", "St.Patricks Day, in Ireland, winter"], ["created_at", "2020-08-06 18:04:46.731234"], ["updated_at", "2020-08-06 18:04:46.731234"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Prima Pils"], ["brewery", "Victory Brewing Co"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-victory-prima-pils-53e84a166ec6bb50.png"], ["style", "Pilsner"], ["abv", 5.3], ["description", "This is truly brilliant beer, bringing nuanced complexity together with smooth, easy drinking."], ["tasting_notes", "A crisp yet distinct Pilsner brewed with German hops that bring vivid notes of floral and spice with citrus and lemon."], ["likes", 0], ["recommended_drinking", "year round, beach, grilling, easy drinking"], ["created_at", "2020-08-06 18:04:46.734006"], ["updated_at", "2020-08-06 18:04:46.734006"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Resin"], ["brewery", "Sixpoint Brewery"], ["img_url", "https://sixpoint.com/wp-content/uploads/2012/02/resin_can.jpg"], ["style", "Double IPA"], ["abv", 9.1], ["description", "Key Ingredients, Chinook and Centennial Hops, are a little old school, with tons of resin and pine notes. Resin uses a ton of different hops, for a massively complex hop bouquet."], ["tasting_notes", "Hop candy up front, but drinks super clean for the size of the beer."], ["likes", 0], ["recommended_drinking", "looking for something strong, bold taste, cooler weather."], ["created_at", "2020-08-06 18:04:46.736680"], ["updated_at", "2020-08-06 18:04:46.736680"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (1.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Jammer"], ["brewery", "Sixpoint Brewery"], ["img_url", "https://sixpoint.com/wp-content/uploads/2019/04/sixpoint-site-jammer.png"], ["style", "Gose"], ["abv", 4.0], ["description", "Tart enough to tingle the tastebuds, but not so sour that you can’t throw back a few."], ["tasting_notes", "A refreshing, tart brew balanced with a fruity coriander aroma and a touch of sea salt."], ["likes", 0], ["recommended_drinking", "summer, beach, day drinking, slamming"], ["created_at", "2020-08-06 18:04:46.739442"], ["updated_at", "2020-08-06 18:04:46.739442"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Watermelon Session Ale"], ["brewery", "Montauk Brewing Company"], ["img_url", "https://products1.imgix.drizly.com/ci-montauk-watermelon-session-ale-10693946b59344d5.png?auto=format%2Ccompress&fm=jpg&q=20"], ["style", "Ale"], ["abv", 4.9], ["description", "This highly refreshing brew combines delicious watermelon flavors with a crisp Session Ale that is perfect for sipping under the summer sun."], ["tasting_notes", "Watermelon"], ["likes", 0], ["recommended_drinking", "seasonal, summer, beach, sun"], ["created_at", "2020-08-06 18:04:46.743554"], ["updated_at", "2020-08-06 18:04:46.743554"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Gose"], ["brewery", "Westbrook Brewing Co"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-westbrook-gose-c19431796be957eb.jpeg"], ["style", "Gose"], ["abv", 4.0], ["description", "Tart wheat beer with a touch of sea salt."], ["tasting_notes", "Coriander, sea salt, sour - delicious."], ["likes", 0], ["recommended_drinking", "summer, beach, slamming"], ["created_at", "2020-08-06 18:04:46.746200"], ["updated_at", "2020-08-06 18:04:46.746200"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "All Galaxy Everything"], ["brewery", "Other Half Brewing"], ["img_url", "https://craftpeak-cooler-images.imgix.net/other-half-brewing/All-Galaxy-Everything.png?auto=compress%2Cformat&fit=scale&h=1024&ixlib=php-1.2.1&w=1024&wpsize=large"], ["style", "Imperial IPA"], ["abv", 8.5], ["description", "Single hop style IPA."], ["tasting_notes", "Pungent passion fruit forward Galaxy hops."], ["likes", 0], ["recommended_drinking", "slow sipping, higher ABV"], ["created_at", "2020-08-06 18:04:46.749207"], ["updated_at", "2020-08-06 18:04:46.749207"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Sippin Pretty"], ["brewery", "Odell Brewing Co"], ["img_url", "https://www.odellbrewing.com/wp-content/uploads/2020/05/Sippin-Pretty-Hero.png"], ["style", "Fruited Sour"], ["abv", 4.5], ["description", "Loaded with a unique blend of açai, guava, and elderberry, and balanced with a delicate addition of Himalayan pink sea salt, this beer pops with a bright ruby color and a refreshing tart finish."], ["tasting_notes", "Acai, guava, and elderberry."], ["likes", 0], ["recommended_drinking", "seasonal, summer, beach, slamming"], ["created_at", "2020-08-06 18:04:46.751931"], ["updated_at", "2020-08-06 18:04:46.751931"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.1ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Coors Banquet"], ["brewery", "Coors Brewing Company"], ["img_url", "https://products2.imgix.drizly.com/ci-coors-banquet-2377c317e74b4b3c.jpeg?auto=format%2Ccompress&fm=jpg&q=20"], ["style", "Lager"], ["abv", 5.0], ["description", "Coors Banquet is brewed with 100% Rocky Mountain water and Moravian barley from many generations of family farmers"], ["tasting_notes", "The subtle blend of Chinook, Hallertau, Herkules and Taurus hops gives Coors Banquet just the perfect hint of bitterness to offset the malty sweetness"], ["likes", 0], ["recommended_drinking", "all year, slamming, outdoors"], ["created_at", "2020-08-06 18:04:46.754559"], ["updated_at", "2020-08-06 18:04:46.754559"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "312"], ["brewery", "Goose Island"], ["img_url", "https://products2.imgix.drizly.com/ci-goose-island-312-urban-wheat-ale-14beb4546d433a46.jpeg?auto=format%2Ccompress&fm=jpg&q=20"], ["style", "Wheat Ale"], ["abv", 4.2], ["description", "A crisp, fruity ale flavor delivered in a smooth, creamy body that is immensely refreshing."], ["tasting_notes", "Lemon, spicy aroma"], ["likes", 0], ["recommended_drinking", "all year, beach, get-togethers"], ["created_at", "2020-08-06 18:04:46.757027"], ["updated_at", "2020-08-06 18:04:46.757027"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Numero Uno"], ["brewery", "Flying Dog Brewery"], ["img_url", "https://lh3.googleusercontent.com/yKjw7-elFFA-E22U4m4-iWBxNSF0zfmu0eeJ3VGc4K2m2c3rfRZA55Xtn2xG3r6UsVJ_Hvu2JUknPEYtk7SHcePaRGaRAQ=s750"], ["style", "Mexican Lager"], ["abv", 4.9], ["description", "Refreshing lager that brings bold, bright lime zest flavor and a crisp, clean finish"], ["tasting_notes", "lime and agave"], ["likes", 0], ["recommended_drinking", "beach, summer, hot weather, Cinco de Mayo"], ["created_at", "2020-08-06 18:04:46.759535"], ["updated_at", "2020-08-06 18:04:46.759535"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "SeaQuench Ale"], ["brewery", "Dogfish Head Craft Brewery "], ["img_url", "https://cdn.shopify.com/s/files/1/0227/0581/products/Dogfish-Head-SeaQuench-Sour-Ale-12OZ-CAN_417f509f-9ac7-4ec7-b0b8-c9f26be40cb5_620x.png?v=1531727454"], ["style", "Sour"], ["abv", 4.9], ["description", "Amazingly tart, refreshingly crsip."], ["tasting_notes", "Flavors of lime and the deeper slight bitter of black lime, a touch of salt on the tongue, and a bit of malt sweetness in the finish."], ["likes", 0], ["recommended_drinking", "summer, beach, slammning, get-togethers"], ["created_at", "2020-08-06 18:04:46.762129"], ["updated_at", "2020-08-06 18:04:46.762129"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.1ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "White"], ["brewery", "Allagash"], ["img_url", "https://www.allagash.com/wp-content/uploads/White-2.19.20.png"], ["style", "Belgian Style Wheat"], ["abv", 5.2], ["description", "Allagash White features a refreshing balance of citrus and spice in this hazy Belgian-style wheat beer."], ["tasting_notes", "Coriander and Curaçao orange peel."], ["likes", 0], ["recommended_drinking", "easy drinking, summer, beach, Maine."], ["created_at", "2020-08-06 18:04:46.764658"], ["updated_at", "2020-08-06 18:04:46.764658"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.1ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "All Day IPA"], ["brewery", "Founders"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-founders-all-day-ipa-f3e4b9d140c8abe0.png"], ["style", "IPA"], ["abv", 4.7], ["description", "Naturally brewed with a complex array of malts, grains and hops. Balanced for optimal aromatics and a clean finish."], ["tasting_notes", "hop, orange, tangerine, pine."], ["likes", 0], ["recommended_drinking", "all day, all year, get-togethers"], ["created_at", "2020-08-06 18:04:46.767078"], ["updated_at", "2020-08-06 18:04:46.767078"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Save the Robots"], ["brewery", "Radiant Pig"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-radiant-pig-save-the-robots-east-coast-ipa-e3fff96edbd8f4c1.png"], ["style", "IPA"], ["abv", 7.0], ["description", "Big IPA that drinks easy"], ["tasting_notes", "This hazy, unfiltered gem has juicy, tropical, flavors that span the hop multiverse."], ["likes", 0], ["recommended_drinking", "slamming IPAs, all year, bold flavor."], ["created_at", "2020-08-06 18:04:46.769441"], ["updated_at", "2020-08-06 18:04:46.769441"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.3ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Sour Patch Suds"], ["brewery", "Mikkeller Brewing"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-mikkeller-nyc-sour-pitch-suds-b25d978cc6c3f3d7.jpeg"], ["style", "Sour IPA"], ["abv", 7.0], ["description", "Punch-style Sour IPA"], ["tasting_notes", "Cherry, pomegranate, key lime, pineapple, tangerine, passion fruit, lemon zest."], ["likes", 0], ["recommended_drinking", "feeling funky, summer, something new, interesting"], ["created_at", "2020-08-06 18:04:46.772115"], ["updated_at", "2020-08-06 18:04:46.772115"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Spotted Cow"], ["brewery", "New Glarus Brewing Co"], ["img_url", "https://i5.walmartimages.com/asr/047577b3-3384-4250-9218-e6b985448a0b_1.965650c07f41f76ad565b8a47492d9e7.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff"], ["style", "Naturally Cloudy Farmhouse Ale"], ["abv", 4.8], ["description", "Naturally cloudy, the yeast is allowed to remain in the bottle to enhance fullness of flavors."], ["tasting_notes", "Fun, Fruity and Satisfying"], ["likes", 0], ["recommended_drinking", "feeling funky, Wisconsin, all year"], ["created_at", "2020-08-06 18:04:46.774635"], ["updated_at", "2020-08-06 18:04:46.774635"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Unfiltered Wheat"], ["brewery", "Boulevard Brewing Co"], ["img_url", "https://images.ctfassets.net/qe08557i7rmu/5d5OntyFfayQOKmOkkCucm/fd6317ba405ec7dcfa08333f5e1e4180/Boulevard-Unfiltered-Wheat-web.jpg?w=900"], ["style", "Unfiltered Wheat"], ["abv", 4.4], ["description", "Boulevard Unfiltered Wheat Beer is a lively, refreshing ale with a natural citrusy flavor and distinctive cloudy appearance."], ["tasting_notes", "Wheat and Lemon"], ["likes", 0], ["recommended_drinking", "all year, refreshing, summer, bbq"], ["created_at", "2020-08-06 18:04:46.777517"], ["updated_at", "2020-08-06 18:04:46.777517"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Create (0.2ms)[0m  [1m[32mINSERT INTO "beers" ("name", "brewery", "img_url", "style", "abv", "description", "tasting_notes", "likes", "recommended_drinking", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "Labatt Blue"], ["brewery", "Labatt"], ["img_url", "https://dydza6t6xitx6.cloudfront.net/ci-labatt-blue-166b3625536163c9.png"], ["style", "Canadian Pilsner"], ["abv", 5.0], ["description", "Labatt Blue has a clean refreshing taste with distinct hop aroma."], ["tasting_notes", "Delicate fruit flavor and a slightly sweet aftertaste."], ["likes", 0], ["recommended_drinking", "slamming, all year, Canada, drinkable."], ["created_at", "2020-08-06 18:04:46.779899"], ["updated_at", "2020-08-06 18:04:46.779899"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "zipcode", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "beerlover"], ["email", "beer@beer.com"], ["zipcode", "11226"], ["password", "123"], ["created_at", "2020-08-06 18:04:46.787594"], ["updated_at", "2020-08-06 18:04:46.787594"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "zipcode", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "johnman"], ["email", "hello@hello.com"], ["zipcode", "06854"], ["password", "321"], ["created_at", "2020-08-06 18:04:46.790995"], ["updated_at", "2020-08-06 18:04:46.790995"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "zipcode", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "beer4ever"], ["email", "beer4ever@beer.com"], ["zipcode", "63129"], ["password", "abc"], ["created_at", "2020-08-06 18:04:46.793668"], ["updated_at", "2020-08-06 18:04:46.793668"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "zipcode", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "bobama"], ["email", "obama@pres.com"], ["zipcode", "11111"], ["password", "obama"], ["created_at", "2020-08-06 18:04:46.796360"], ["updated_at", "2020-08-06 18:04:46.796360"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "zipcode", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "buschman"], ["email", "buschman@busch.com"], ["zipcode", "54321"], ["password", "54321"], ["created_at", "2020-08-06 18:04:46.799137"], ["updated_at", "2020-08-06 18:04:46.799137"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mReview Create (1.2ms)[0m  [1m[32mINSERT INTO "reviews" ("content", "user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Really loved it!"], ["user_id", 5], ["beer_id", 33], ["created_at", "2020-08-06 18:04:46.837645"], ["updated_at", "2020-08-06 18:04:46.837645"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("content", "user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Only okay."], ["user_id", 2], ["beer_id", 56], ["created_at", "2020-08-06 18:04:46.844170"], ["updated_at", "2020-08-06 18:04:46.844170"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("content", "user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Great american lager"], ["user_id", 4], ["beer_id", 33], ["created_at", "2020-08-06 18:04:46.850355"], ["updated_at", "2020-08-06 18:04:46.850355"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.1ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("content", "user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Amazing IPA"], ["user_id", 5], ["beer_id", 48], ["created_at", "2020-08-06 18:04:46.855105"], ["updated_at", "2020-08-06 18:04:46.855105"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  [1m[36mReview Create (0.2ms)[0m  [1m[32mINSERT INTO "reviews" ("content", "user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "Not that great. Too dark"], ["user_id", 3], ["beer_id", 46], ["created_at", "2020-08-06 18:04:46.860226"], ["updated_at", "2020-08-06 18:04:46.860226"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mFavorite Create (1.5ms)[0m  [1m[32mINSERT INTO "favorites" ("user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["beer_id", 33], ["created_at", "2020-08-06 18:04:46.869794"], ["updated_at", "2020-08-06 18:04:46.869794"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mFavorite Create (0.3ms)[0m  [1m[32mINSERT INTO "favorites" ("user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 5], ["beer_id", 33], ["created_at", "2020-08-06 18:04:46.876249"], ["updated_at", "2020-08-06 18:04:46.876249"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.1ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  [1m[36mFavorite Create (0.2ms)[0m  [1m[32mINSERT INTO "favorites" ("user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 4], ["beer_id", 46], ["created_at", "2020-08-06 18:04:46.881001"], ["updated_at", "2020-08-06 18:04:46.881001"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 54], ["LIMIT", 1]]
+  [1m[36mFavorite Create (0.2ms)[0m  [1m[32mINSERT INTO "favorites" ("user_id", "beer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["beer_id", 54], ["created_at", "2020-08-06 18:04:46.888038"], ["updated_at", "2020-08-06 18:04:46.888038"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBeer Load (0.1ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 60], ["LIMIT", 1]]
+  [1m[35m (1.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 11]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 11]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 11]]
