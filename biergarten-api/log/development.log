@@ -14647,3 +14647,604 @@ Processing by Api::V1::BeersController#index as */*
 Completed 200 OK in 167ms (Views: 101.3ms | ActiveRecord: 65.7ms | Allocations: 72158)
 
 
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 17:55:52 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BeersController#index as HTML
+  [1m[36mBeer Load (0.9ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.4ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (4.9ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.4ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 198ms (Views: 162.5ms | ActiveRecord: 28.4ms | Allocations: 95256)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 17:57:01 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (16.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (1.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.8ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (1.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 112ms (Views: 82.8ms | ActiveRecord: 28.5ms | Allocations: 72178)
+
+
+Started PATCH "/api/v1/beers/40" for ::1 at 2020-08-06 17:57:06 -0400
+Processing by Api::V1::BeersController#update as JSON
+  Parameters: {"likes"=>3, "id"=>"40", "beer"=>{"likes"=>3}}
+  [1m[36mBeer Load (0.2ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/beers_controller.rb:14:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[36mBeer Update (0.5ms)[0m  [1m[33mUPDATE "beers" SET "likes" = $1, "updated_at" = $2 WHERE "beers"."id" = $3[0m  [["likes", 3], ["updated_at", "2020-08-06 21:57:06.615688"], ["id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+  [1m[36mReview Load (0.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+Completed 200 OK in 12ms (Views: 4.1ms | ActiveRecord: 2.2ms | Allocations: 5571)
+
+
+Started PATCH "/api/v1/beers/40" for ::1 at 2020-08-06 17:57:19 -0400
+Processing by Api::V1::BeersController#update as JSON
+  Parameters: {"likes"=>3, "id"=>"40", "beer"=>{"likes"=>3}}
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/beers_controller.rb:14:in `update'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 3009)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 17:58:57 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.4ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (1.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (2.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 121ms (Views: 102.4ms | ActiveRecord: 18.5ms | Allocations: 72157)
+
+
+Started PATCH "/api/v1/beers/40" for ::1 at 2020-08-06 17:58:59 -0400
+Processing by Api::V1::BeersController#update as JSON
+  Parameters: {"likes"=>4, "id"=>"40", "beer"=>{"likes"=>4}}
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/beers_controller.rb:14:in `update'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[36mBeer Update (1.0ms)[0m  [1m[33mUPDATE "beers" SET "likes" = $1, "updated_at" = $2 WHERE "beers"."id" = $3[0m  [["likes", 4], ["updated_at", "2020-08-06 21:58:59.716208"], ["id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:15:in `update'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+Completed 200 OK in 10ms (Views: 3.1ms | ActiveRecord: 2.6ms | Allocations: 5137)
+
+
+Started PATCH "/api/v1/beers/40" for ::1 at 2020-08-06 17:59:07 -0400
+Processing by Api::V1::BeersController#update as JSON
+  Parameters: {"likes"=>4, "id"=>"40", "beer"=>{"likes"=>4}}
+  [1m[36mBeer Load (0.3ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/beers_controller.rb:14:in `update'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:16:in `update'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.8ms | Allocations: 2988)
+
+
+Started GET "/api/v1/beers" for ::1 at 2020-08-06 17:59:09 -0400
+Processing by Api::V1::BeersController#index as */*
+  [1m[36mBeer Load (0.5ms)[0m  [1m[34mSELECT "beers".* FROM "beers"[0m
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (1.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 33]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (6.9ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 34]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (1.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 35]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 36]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.3ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.4ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 37]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 38]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 39]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 40]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 41]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 42]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 43]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 44]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 45]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.6ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 46]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 47]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 48]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 49]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 50]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 51]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 52]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 53]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 54]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 55]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.2ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 56]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 57]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 58]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 59]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 60]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 61]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 62]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.2ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 63]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mFavorite Load (0.1ms)[0m  [1m[34mSELECT "favorites".* FROM "favorites" WHERE "favorites"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+  [1m[36mReview Load (0.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."beer_id" = $1[0m  [["beer_id", 64]]
+  ↳ app/controllers/api/v1/beers_controller.rb:5:in `index'
+Completed 200 OK in 117ms (Views: 95.6ms | ActiveRecord: 20.7ms | Allocations: 72159)
+
+

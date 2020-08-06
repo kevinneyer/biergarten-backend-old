@@ -10,5 +10,20 @@ class Api::V1::UsersController < ApplicationController
       render json: user, include: [:favorites, :reviews]
     end
 
-    
+    def create
+      user = User.create(user_params)
+      render json: users, include: [:favorites, :reviews]
+    end
+
+    def update
+      user = User.find(params[:id])
+      user = User.update(user_params)
+      render json: users, include: [:favorites, :reviews]
+    end
+
+    private
+
+    def user_params
+      params.require(:user).permit!
+    end
 end
