@@ -11,16 +11,20 @@ class Api::V1::UsersController < ApplicationController
     end
 
     def create
-      user = User.create(user_params)
-      render json: users, include: [:favorites, :reviews]
-    end
+      user = User.new(user_params)
+      if user.save
+        render json: user, include: [:favorites, :reviews]
+      else 
+        render json: {errors: user.errors.full_messages}
+      end
+    end 
 
     def update
       user = User.find(params[:id])
       user = User.update(user_params)
       render json: users, include: [:favorites, :reviews]
     end
-
+ 
     private
 
     def user_params
