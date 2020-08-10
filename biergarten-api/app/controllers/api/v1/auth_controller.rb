@@ -11,10 +11,9 @@ class Api::V1::AuthController < ApplicationController
     end
 
     def auto_login
-      user = User.find_by(id: request.headers["Authorization"])
        
-      if user
-        render json: user #, include[:reviews, :favorites]
+      if session_user 
+        render json: session_user #, include[:reviews, :favorites]
       else
         render json: {errors: "Something went wrong!"}
       end

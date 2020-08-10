@@ -11,8 +11,8 @@ class Api::V1::ReviewsController < ApplicationController
       end
 
       def create
-         review = Review.create(review_params)
-         render json: review
+          review = Review.create({content: params[:content], beer_id: params[:beer_id], user: session_user})
+          render json: review        
       end
       
       def destroy
@@ -20,9 +20,9 @@ class Api::V1::ReviewsController < ApplicationController
         review.destroy
       end
 
-      private
+      # private
 
-      def review_params
-        params.require(:review).permit(:content)
-      end
+      # def review_params
+      #   params.require(:review).permit!
+      # end
 end
