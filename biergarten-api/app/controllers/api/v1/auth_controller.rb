@@ -4,7 +4,8 @@ class Api::V1::AuthController < ApplicationController
         user = User.find_by(username: params[:username])
 
         if user && user.authenticate(params[:password])
-          render json: user #, include[:reviews, :favorites]
+          token = encode_token(user.id)
+          render json: {user: user, token: token} #, include: [:favorites, :reviews]
         else
           render json: {errors: "Something went wrong!"}
         end
