@@ -7,7 +7,7 @@ class ReviewSerializer < ActiveModel::Serializer
   end 
 
   def beer
-    {beer_id: self.object.beer.id, 
+    {#beer_id: self.object.beer.id, 
       beer_name: self.object.beer.name}
   end
   
