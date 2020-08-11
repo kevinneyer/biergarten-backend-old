@@ -1,5 +1,5 @@
 class ReviewSerializer < ActiveModel::Serializer
-  attributes :id, :content, :beer, :user
+  attributes :id, :content, :beer, :user, :rating
 
   def user
     {user_id: self.object.user.id, 

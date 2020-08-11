@@ -10,8 +10,8 @@ class Api::V1::FavoritesController < ApplicationController
           render json: favorite
       end
 
-      def new
-         favorite = Favorite.create(favorite_params)
+      def create
+         favorite = Favorite.create({beer_id: params[:beer][:beer_id], user: session_user})
          render json: favorite
       end
 
